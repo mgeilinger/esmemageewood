@@ -14,7 +14,7 @@ function slideDown(element, maxHeight) {
         if (height >= maxHeight) {
             clearInterval(interval);
         } else {
-            height += 1; // Adjust the speed of the slide by changing this value
+            height += 3; // Adjust the speed of the slide by changing this value
             if (height > maxHeight) {
                 height = maxHeight;
             }
@@ -30,7 +30,7 @@ function slideUp(element) {
             clearInterval(interval);
             element.style.display = "none";
         } else {
-            height -= 1; // Adjust the speed of the slide by changing this value
+            height -= 3; // Adjust the speed of the slide by changing this value
             if (height < 0) {
                 height = 0;
             }
