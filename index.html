@@ -8,9 +8,16 @@
 </head>
 <body>
 
-<nav>
+<header>
     <a href="index.html">Esme Magee-Wood</a>
-    <a href="#">Menu</a>
+    <span id="menu" onclick="toggleMenu()">Menu</span>
+</header>
+
+<nav id="navMenu" style="display: none; overflow: hidden; height: 0;">
+    <a href="about.html">About</a>
+    <a href="paintings.html">Paintings</a>
+    <a href="work.html">Work</a>
+    <a href="contact.html">Contact</a>
 </nav>
 
 <div class="container">

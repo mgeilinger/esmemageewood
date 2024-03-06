@@ -1,44 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Karla;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal;
     margin: 0;
     padding: 0;
 }
 
-nav {
-    background-color: #ffffff;
+header {
+    background-color: white;
     color: #ff4545;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #ececec;
     padding: 5px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    height: 41px;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 10;
 }
 
-nav a:last-child {
+header span:last-child {
     padding-right: 30px;
+}
+
+header a {
+    color: #ff4545;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: white;
+    color: #ff4545;
+    border-bottom: 1px solid #ececec;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    height: 41px;
+    width: 100%;
+    z-index: 8;
 }
 
 nav a {
     color: #ff4545;
+    padding-right: 30px;
     text-decoration: none;
-    padding: 5px 10px;
 }
 
 footer {
-    background-color: #ffffff;
+    background: white;
     color: #ff4545;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid #ececec;
+    height: 41px;
     padding: 5px 10px;
     display: flex;
     justify-content: space-between;
     align-items: left;
     position: fixed;
-    bottom: 0;
     width: 100%;
+    z-index: 9;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
 }
 
 footer a {
@@ -58,7 +87,6 @@ footer a {
 
 .banner-image {
     max-width: 100%;
-    height: auto;
 }
 
 /* .small-image {
