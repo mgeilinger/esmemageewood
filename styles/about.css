@@ -1,0 +1,24 @@
+img {
+    height: 400px;
+    width: 400px;
+    padding-top: 50px;
+}
+
+.text-box {
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 700px;
+}
+
+.text-box h1 {
+    color: blue;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.text-box p {
+    color: rgb(43, 215, 43);
+    font-size: 16px;
+}
