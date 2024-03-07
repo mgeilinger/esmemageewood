@@ -1,5 +1,6 @@
 body {
     font-family: Karla;
+    /* font-family: "HaasGrotesk",Helvetica,sans-serif; */
     font-size: 18px;
     font-weight: normal;
     margin: 0;
@@ -201,4 +202,27 @@ footer a {
     font-size: 18px;
     margin: 0;
     padding: 10px 10px 7px 170px;
+}
+
+.row_right {
+    padding: 15px 0px 15px 50px;
+    border-bottom: 1px solid #ececec;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row_left {
+    padding: 15px 50px 15px 0px;
+    border-bottom: 1px solid #ececec;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row_right img,.row_left img {
+    position: relative;
+    padding: 0px 10px;
+    width: 280px;
+    height: 280px;
 }
