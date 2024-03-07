@@ -1,0 +1,59 @@
+.text-box {
+    background-color: white;
+    padding: 20px;
+    margin-top: 80px;
+    width: 650px;
+}
+
+.text-box h1 {
+    color: blue;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.text-box p {
+    /* color: rgb(43, 215, 215); */
+    color: orange;
+    font-size: 16px;
+}
+
+form {
+    margin: 0;
+    display: block;
+    width: 400px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    background-color: orange;
+    color: blue;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#message {
+    resize: vertical;
+}
+
+textarea {
+    height: 150px;
+}
+
+::placeholder {
+    color: rgb(73, 73, 255);
+  }
+
+input[type="submit"] {
+    background-color: lightgrey;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: grey;
+}
