@@ -1,7 +1,6 @@
 body {
     font-family: Karla;
     font-size: 18px;
-    line-height: 20px;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -54,6 +53,15 @@ nav a {
 
 a:hover {
     color: blue; /* Change color to blue on hover */
+    /* text-shadow: 0 0 1px blue, 0 0 1px blue, 0 0 1px blue, 0 0 1px blue; */
+}
+
+#current_page {
+    color: rgb(221, 221, 42);
+}
+
+#current_page:hover {
+    color: blue;
 }
 
 span:hover {
@@ -88,26 +96,109 @@ footer a {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 20px;
     margin-top: 50px;
 }
 
 .banner-image {
     max-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
-/* .small-image {
-    width: 33.33%;
-    padding-right: 20px;
+.wall_left {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
+    height: 530px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid #ececec;
 }
 
-.text-box {
-    width: 66.66%;
-    padding-left: 20px;
+.wall_right {
+    position: relative;
+    box-sizing: border-box;
+    float: right;
+    width: 60%;
+    height: 530px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid #ececec;
 }
 
-.text-box h2 {
-    margin-top: 0;
-} */
+.wall_left img,.wall_right img {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    min-height: 250px;
+    display: block;
+}
+
+.text_right {
+    position: relative;
+    box-sizing: border-box;
+    float: right;
+    width: 40%;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0 0 200px 0;
+    text-align: left;
+    border-left: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background: white;
+}
+
+.text_left {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    width: 40%;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0 0 200px 0;
+    text-align: left;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background: white;
+}
+
+.text_right h1 {
+    color: blue;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px 20px 14px 20px;
+}
+
+.text_left h1 {
+    color: blue;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px 20px 14px 170px;
+}
+
+.text_right p {
+    color: green;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 10px 7px 20px;
+}
+
+.text_left p {
+    color: green;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 10px 7px 170px;
+}
