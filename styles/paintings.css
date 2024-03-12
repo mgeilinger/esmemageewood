@@ -83,14 +83,14 @@
 }
 
 .text_right p {
-    color: green;
+    color: rgb(217, 107, 87);
     font-size: 18px;
     margin: 0;
     padding: 10px 10px 7px 20px;
 }
 
 .text_left p {
-    color: green;
+    color: rgb(217, 107, 87);
     font-size: 18px;
     margin: 0;
     padding: 10px 10px 7px 170px;

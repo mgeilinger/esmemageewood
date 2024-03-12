@@ -58,7 +58,7 @@ a:hover {
 }
 
 #current_page {
-    color: rgb(221, 221, 42);
+    color: rgb(243, 243, 44);
 }
 
 #current_page:hover {
@@ -67,7 +67,7 @@ a:hover {
 
 span:hover {
     cursor: pointer;
-    color: blue; /* Change color to blue on hover */
+    color: blue;
 }
 
 footer {
@@ -104,5 +104,5 @@ footer a {
 .banner-image {
     max-width: 100%;
     box-sizing: border-box;
-    padding: 20px;
+    max-height: 100%;
 }
